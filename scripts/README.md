@@ -3,7 +3,7 @@
 - They are for learning puposes only, designed to demonstrate how SQL injection Payloads can be automated with python.
 
 ## Scripts
-1. **sqli_password_extractor_response.py
+1. **sqli_password_extractor_response.py**
 - Type: Blind SQL Injection (Response-based)
 - Working:
      - Automated guessing an administrator password character by character.
