@@ -6,9 +6,17 @@
 1. **sqli_password_extractor_response.py**
 - Type: Blind SQL Injection (Response-based)
 - Working:
-     - Automated guessing an administrator password character by character.
+     - Automates guessing an administrator password character by character.
      - Uses conditional payloads inside a cookie (TrackingId) and checks the server's HTTP response to confirm guesses.
 - Success condition: Script looks for the text "Welcome back" in the response.
+
+2. **sqli_password_extractor_error.py**
+- Type: Blind SQL Injection (ERR-BASED)
+- Working:
+     -  Automates guessing an administrator password character by character.
+     -  Payloads are crafted so that a **corrent guess triggers a database error**
+     -  The script confirms guesses by checking for an HTTP '500' response.
+- Success condition: Script identifies a match when the server responds with the '500' Server error.
 
 ## Notes
 - These scripts are tied to only specific PortSwigger Labs.
