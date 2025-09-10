@@ -17,6 +17,13 @@
      -  Payloads are crafted so that a **corrent guess triggers a database error**
      -  The script confirms guesses by checking for an HTTP '500' response.
 - Success condition: Script identifies a match when the server responds with the '500' Server error.
+3. **blind_sqli_delay_extract.py**
+- Type: Blind SQL Injection (Time-based)
+- Working:
+     - Automates extracting the administrator password one character at a time.
+     - Injecting payloads into the 'TrackingId' cookie that use PostgreSQL's 'pg_sleep()' to cause a        time delay when the guessed character is correct.
+     - Measures response time to determine correct guesses.
+- Success condition: A correct guess makes the server delay the response (>3s), which confirms the character.
 
 ## Notes
 - These scripts are tied to only specific PortSwigger Labs.
