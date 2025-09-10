@@ -1,7 +1,7 @@
 # PortSwigger Labs Progress
 Progress tracker for PortSwigger Web Security Academy Labs, covering core web security vulnerabilities through hands-on practice. 
 
-## SQL Injection (SQLI): 14/18
+## SQL Injection (SQLI): 15/18
 
 ## Completed Labs 
 
@@ -22,11 +22,11 @@ Apprentice
 - Blind SQL injection with conditional errors  
 - Visible error-based SQL injection  
 - Blind SQL injection with time delays
+- Blind SQL injection with time delays and information retrieval
 
 ## Labs Left
 
 **Practitioner**
-- Blind SQL injection with time delays and information retrieval
 - Blind SQL injection with out-of-band interaction
 - Blind SQL injection with out-of-band data exfiltration
 - SQL injection with filter bypass via XML encoding 
