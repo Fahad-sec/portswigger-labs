@@ -30,4 +30,4 @@ for position in range(1, 21):
         print(f"[-] Position {position}: No match at pos {position}, stopping.")
         break
 
-print(f"\n[✔] Extracted password: {password}")
+print(f"\n[+] Extracted password: {password}")
