@@ -1,5 +1,5 @@
 # PortSwigger Labs Progress
-Progress tracker for PortSwigger Web Security Academy Labs, covering core web security vulnerabilities through hands-on practice. 
+Progress tracker for PortSwigger Web Security Academy labs — documented hands-on practice in SQLi + automation scripts.
 
 ## SQL Injection (SQLI): 15/18
 
@@ -29,4 +29,8 @@ Apprentice
 **Practitioner**
 - Blind SQL injection with out-of-band interaction
 - Blind SQL injection with out-of-band data exfiltration
-- SQL injection with filter bypass via XML encoding 
+- SQL injection with filter bypass via XML encoding
+**See the automation scripts:** the `scripts/` folder contains demo scripts for response-based, error-based, and time-delay SQLi extraction.  
+Browse: [./scripts](./scripts/)
+
+
