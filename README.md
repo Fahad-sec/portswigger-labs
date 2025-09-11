@@ -1,7 +1,7 @@
 # PortSwigger Labs Progress
 Progress tracker for PortSwigger Web Security Academy labs — documented hands-on practice in SQLi + automation scripts.
 
-## SQL Injection (SQLI): 15/18
+## SQL Injection (SQLI): 16/18
 
 ## Completed Labs 
 
@@ -23,13 +23,13 @@ Apprentice
 - Visible error-based SQL injection  
 - Blind SQL injection with time delays
 - Blind SQL injection with time delays and information retrieval
+- SQL injection with filter bypass via XML encoding 
 
 ## Labs Left
 
 **Practitioner**
 - Blind SQL injection with out-of-band interaction *(requires Burp Suite Professional)*
 - Blind SQL injection with out-of-band data exfiltration *(requires Burp Suite Professional)*
-- SQL injection with filter bypass via XML encoding *(lab currently not loading / unsupported)*
 
 **See the automation scripts:** the `scripts/` folder contains demo scripts for response-based, error-based, and time-delay SQLi extraction. 
 Browse: [./scripts](./scripts/)
