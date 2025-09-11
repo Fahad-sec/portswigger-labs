@@ -27,11 +27,22 @@ Apprentice
 ## Labs Left
 
 **Practitioner**
-- Blind SQL injection with out-of-band interaction
-- Blind SQL injection with out-of-band data exfiltration
-- SQL injection with filter bypass via XML encoding
+- Blind SQL injection with out-of-band interaction *(requires Burp Suite Professional)*
+- Blind SQL injection with out-of-band data exfiltration *(requires Burp Suite Professional)*
+- SQL injection with filter bypass via XML encoding *(lab currently not loading / unsupported)*
 
-**See the automation scripts:** the `scripts/` folder contains demo scripts for response-based, error-based, and time-delay SQLi extraction.  
+**See the automation scripts:** the `scripts/` folder contains demo scripts for response-based, error-based, and time-delay SQLi extraction. 
 Browse: [./scripts](./scripts/)
 
+---
+
+## Cross-Site Scripting (XSS): 1/30
+
+## Completed Labs
+
+Apprentice
+- Reflected XSS into HTML context with nothing encoded
+
+## Labs Left
+29 more to go — currently working through core theory + hands-on practice.
 
