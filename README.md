@@ -36,7 +36,7 @@ Browse: [./scripts](./scripts/)
 
 ---
 
-## Cross-Site Scripting (XSS): 1/30
+## Cross-Site Scripting (XSS): 9/30
 Tracking hands-on labs and payload crafting for different XSS contexts.
 
 ## Completed Labs
