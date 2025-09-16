@@ -36,7 +36,7 @@ Browse: [./scripts](./scripts/)
 
 ---
 
-## Cross-Site Scripting (XSS): 9/30
+## Cross-Site Scripting (XSS): 16/30
 Tracking hands-on labs and payload crafting for different XSS contexts.
 
 ## Completed Labs
@@ -52,6 +52,15 @@ Apprentice
 - Stored XSS into anchor href attribute with double quotes HTML-encoded
 - Reflected XSS into a JavaScript string with angle brackets HTML encoded
 
+Practitioner
+- DOM XSS in document.write sink using source location.search inside a select element
+- DOM XSS in AngularJS expression with angle brackets and double quotes HTML-encoded
+- Reflected DOM XSS
+- Stored DOM XSS
+- Reflected XSS into HTML context with most tags and attributes blocked
+- Reflected XSS into HTML context with all tags blocked except custom ones
+- Reflected XSS with some SVG markup allowed
+
 ## Labs Left
-21 more to go — currently working through core theory + hands-on practice.
+14 more to go — currently working through core theory + hands-on practice.
 
