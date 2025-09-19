@@ -41,7 +41,7 @@ Tracking hands-on labs and payload crafting for different XSS contexts.
 
 ## Completed Labs
 
-Apprentice
+Apprentice(COMPLETED)
 - Reflected XSS into HTML context with nothing encoded
 - Stored XSS into HTML context with nothing encoded
 - DOM XSS in document.write sink using source location.search
@@ -52,7 +52,7 @@ Apprentice
 - Stored XSS into anchor href attribute with double quotes HTML-encoded
 - Reflected XSS into a JavaScript string with angle brackets HTML encoded
 
-Practitioner
+Practitioner(UN-COMPLETED)
 - DOM XSS in document.write sink using source location.search inside a select element
 - DOM XSS in AngularJS expression with angle brackets and double quotes HTML-encoded
 - Reflected DOM XSS
@@ -60,7 +60,15 @@ Practitioner
 - Reflected XSS into HTML context with most tags and attributes blocked
 - Reflected XSS into HTML context with all tags blocked except custom ones
 - Reflected XSS with some SVG markup allowed
+- Reflected XSS in canonical link tag
+- Reflected XSS into a JavaScript string with single quote and backslash escaped
+- Reflected XSS into a JavaScript string with angle brackets and double quotes HTML-encoded and single quotes escaped
+- Reflected XSS into a JavaScript string with angle brackets and double quotes HTML-encoded and single quotes escaped
+- Reflected XSS into a template literal with angle brackets, single, double quotes, backslash and backticks Unicode-escaped
+- Exploiting cross-site scripting to steal cookies
+
+EXPERT(NOT STARTED)
 
 ## Labs Left
-14 more to go — currently working through core theory + hands-on practice.
+8 more to go — currently working through core theory + hands-on practice.
 
