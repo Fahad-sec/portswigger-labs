@@ -18,4 +18,4 @@ fetch('/post/comment', {
 });
 });
 </script>
-#Lab: Exploiting cross-site scripting to steal cookies
+//Lab: Exploiting cross-site scripting to steal cookies
