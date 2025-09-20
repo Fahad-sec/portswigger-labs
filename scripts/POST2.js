@@ -27,4 +27,4 @@ fetch('/post/comment', {
 });
 }
 </script>
-#Lab: Exploiting cross-site scripting to capture passwords
+//Lab: Exploiting cross-site scripting to capture passwords
