@@ -74,5 +74,5 @@ EXPERT
 - Reflected XSS with AngularJS sandbox escape and CSP
 
 ## Labs Left
-8 more to go — currently working through core theory + hands-on practice.
+4 more to go — currently working through core theory + hands-on practice.
 
