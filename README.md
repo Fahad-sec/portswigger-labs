@@ -1,4 +1,4 @@
-# PortSwigger Labs Progress
+# PortSwigger Labs Progress(Total labs completed: 61)
 Progress tracker for PortSwigger Web Security Academy labs — documented hands-on practice in SQLi + automation scripts.
 
 ## SQL Injection (SQLI): 16/18
@@ -36,7 +36,7 @@ Browse: [./scripts](./scripts/)
 
 ---
 
-## Cross-Site Scripting (XSS): 24/30
+## Cross-Site Scripting (XSS): 28/30
 Tracking hands-on labs and payload crafting for different XSS contexts.
 
 ## Completed Labs
@@ -72,7 +72,20 @@ Practitioner(COMPLETED)
 EXPERT
 - Reflected XSS with AngularJS sandbox escape without strings
 - Reflected XSS with AngularJS sandbox escape and CSP
+- Reflected XSS with event handlers and href attributes blocked
+- Reflected XSS in a JavaScript URL with some characters blocked
 
-## Labs Left
-4 more to go — currently working through core theory + hands-on practice.
-
+## Access control vulnerabilities: (13/13)
+- Unprotected admin functionality
+- Unprotected admin functionality with unpredictable URL
+- User role controlled by request parameter
+- User role can be modified in user profile
+- User ID controlled by request parameter
+- User ID controlled by request parameter, with unpredictable user IDs
+- User ID controlled by request parameter with data leakage in redirect
+- User ID controlled by request parameter with password disclosure
+- Insecure direct object references
+- URL-based access control can be circumvented
+- Method-based access control can be circumvented
+- Multi-step process with no access control on one step
+- Referer-based access control
