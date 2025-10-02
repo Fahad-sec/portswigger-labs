@@ -1,4 +1,4 @@
-# PortSwigger Labs Progress(Total labs completed: 61)
+# PortSwigger Labs Progress(Total labs completed: 70)
 Progress tracker for PortSwigger Web Security Academy labs — documented hands-on practice in SQLi + automation scripts.
 
 ## SQL Injection (SQLI): 16/18
@@ -89,3 +89,15 @@ EXPERT
 - Method-based access control can be circumvented
 - Multi-step process with no access control on one step
 - Referer-based access control
+
+## Business logic vulnerabilities: (9/12)
+- Excessive trust in client-side controls
+- High-level logic vulnerability
+- Inconsistent security controls
+- Flawed enforcement of business rules
+- Low-level logic flaw
+- Inconsistent handling of exceptional input
+- Weak isolation on dual-use endpoint
+- Insufficient workflow validation
+- Authentication bypass via flawed state machine
+
