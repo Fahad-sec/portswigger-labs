@@ -1,4 +1,4 @@
-# PortSwigger Labs Progress(Total labs completed: 70)
+# PortSwigger Labs Progress(Total labs completed: 78)
 Progress tracker for PortSwigger Web Security Academy labs — documented hands-on practice in SQLi + automation scripts.
 
 ## SQL Injection (SQLI): 16/18
@@ -90,7 +90,7 @@ EXPERT
 - Multi-step process with no access control on one step
 - Referer-based access control
 
-## Business logic vulnerabilities: (9/12)
+## Business logic vulnerabilities: (10/12)
 - Excessive trust in client-side controls
 - High-level logic vulnerability
 - Inconsistent security controls
@@ -100,4 +100,13 @@ EXPERT
 - Weak isolation on dual-use endpoint
 - Insufficient workflow validation
 - Authentication bypass via flawed state machine
+- Infinite money logic flaw
+
+## Path traversal: (6/6)
+- File path traversal, simple case
+- File path traversal, traversal sequences blocked with absolute path bypass
+- File path traversal, traversal sequences stripped non-recursively
+- File path traversal, traversal sequences stripped with superfluous URL-decode
+- File path traversal, validation of start of path
+- File path traversal, validation of file extension with null byte bypass
 
