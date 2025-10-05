@@ -1,4 +1,4 @@
-# PortSwigger Labs Progress(Total labs completed: 78)
+# PortSwigger Labs Progress(Total labs completed: 81)
 Progress tracker for PortSwigger Web Security Academy labs — documented hands-on practice in SQLi + automation scripts.
 
 ## SQL Injection (SQLI): 16/18
@@ -109,4 +109,10 @@ EXPERT
 - File path traversal, traversal sequences stripped with superfluous URL-decode
 - File path traversal, validation of start of path
 - File path traversal, validation of file extension with null byte bypass
+
+## Information disclosure: (4/5)
+- Information disclosure in error messages
+- Information disclosure on debug page
+- Source code disclosure via backup files
+- Authentication bypass via information disclosure
 
